@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #d3f7f8;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: #0460D9;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  /* ------------Estilos input--------- */
+
+  .input-Content{
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+  }
+
+  #inputTarea {
+    padding: 15px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: #0460D9;
+    font-size: 18px;
+  }
+
+  #inputTarea::placeholder {
+    font-size: 18px; 
+    color: #6b72ad;    
+  }
+
+  
+  
+  #AgregarBtn {
+    padding: 15px 25px;
+    background-color: #0487D9;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #AgregarBtn:hover {
+    background-color: #0460D9;
+  }
+  
+  #vacio {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+  }
+  /*  Subrayado completado */
+  li.completado { 
+    text-decoration: line-through;
+    color: rgb(128, 128, 128);
+    background-color: #b7e1eb;
+  }
+  
+  .deleteBtn {
+    background-color: #F25C05;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deleteBtn:hover {
+    background-color: #F28705;
+  }
